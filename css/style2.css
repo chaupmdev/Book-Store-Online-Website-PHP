@@ -1,0 +1,251 @@
+/* .body{
+    background-color: rgb(237, 238, 238);
+    color: rgb(5, 83, 152);
+} */
+a{
+    text-decoration: none;
+    color: #8e44ad;
+}
+a:hover{
+    text-decoration: none;
+    color: #8105b7;
+}
+
+.lbl-seller-login-1{
+    color: #8e44ad;
+    font:inherit;
+    font-size: 30px;
+    font-weight:bold;
+    margin-top: 50px;
+}
+
+.lbl-seller-login-2{
+    color: rgb(119, 120, 121);
+    font:inherit;
+    font-size: 20px;
+}
+
+.img-seller-login{
+    max-width: 550px;
+    width: 100%;
+    max-height:550px;
+}
+
+.img-seller-login-home{
+    max-width: 30px;
+    max-height:30px;
+    float: left;
+    margin-top: 30px;
+}
+
+.form-body-login{
+    height: 450px;
+    border: 1px solid  rgb(237, 243, 243);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgb(231, 229, 229);
+    background-color: #fbfafa;
+}
+.form-body-regis{
+    height: 530px;
+    border: 1px solid  rgb(237, 243, 243);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgb(231, 229, 229);
+    background-color: #fbfafa;
+}
+.lbl-back-home-page
+{
+    color: #434242;
+    float: left;
+    margin-top: 37px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.lbl-seller-login-3{
+    color: #8e44ad;
+    font:inherit;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.input-seller-type-text{
+    border: 2px solid rgb(229, 232, 232);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color:#434242;
+    background-color: #fbfafa;
+    padding: 0 12px;
+}
+.input-seller-type-text:focus{
+    border: 2px solid rgb(113, 232, 232);
+    background-color: #eeecec;
+}
+
+.div-label-login-form{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.div-input-login-form{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.div-input-regis-form{
+    border: 1px solid #6b6b6b;
+    width: 92.5%;
+    height: 40px;
+    border-radius: 5px;
+    color:#6b6b6b;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+}
+.div-input-regis-form:hover{
+    transition: ease 0.5s;
+    color:#8e44ad;
+    border: 2px solid#8e44ad;
+}
+.input-submit-regis:hover{
+    transition: ease 0.5s;
+    color:#8e44ad;
+    border: 2px solid#8e44ad;
+}
+
+.label-forget-pass{
+    color: #8e44ad;
+    font:inherit;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.input-submit{
+    border: 2px solid #8e44ad;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color:whitesmoke;
+    background-color:#8e44ad;
+}
+
+.input-submit-regis{
+    border: 2px solid rgb(229, 232, 232);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(119, 120, 121);
+    background-color:#fbfafa;
+}
+
+.input-submit:hover{
+    background-color:#8e44ad;
+    transition: ease 0.5s;
+}
+.div-hr{
+    width: 100%;
+    height: 1px;
+    border: 1px solid rgb(229, 232, 232);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.chitiet-img-anh-sp{
+    width: 45%;
+    height: 100%;
+}
+.chitiet-div-anh-sp{
+    width: 60%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chitiet-div-thong-tin-sp{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chitiet-h1-ten{
+    font:inherit;
+    font-size: 35px;
+    font-weight: bolder;
+    color:#434242;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chitiet-tacgia-theloai{
+    font:inherit;
+    font-size: 20px;
+    color:#434242;
+    margin-bottom: 10px;
+    
+}
+.chitiet-giaban-sach{
+    font:inherit;
+    font-size: 35px;
+    font-weight: bolder;
+    color:purple;
+    margin-top:20px;
+}
+
+.qty{
+    width: 60px;
+    height: 35px;
+    font-size: 20px;
+    padding-left:15px;
+    border: 1px solid #898888;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.chitiet-btn-them-vao-gio{width:90%;margin-top:10px; height:50px;background-color: white; color: purple; border: 1px solid purple;font-size:20px;border-radius:5px;margin-bottom: 15px;}
+.chitiet-btn-mua-ngay{width:90%;margin-top:20px; height:50px; background-color: purple; color:white; border: 1px solid purple;font-size:20px;border-radius:5px}
+
+.chitiet-btn-mua-ngay:hover{background-color:#8e44ad;
+    transition: ease 0.5s;}
+    .chitiet-btn-them-vao-gio:hover{
+        background-color:#e5e4e5;
+        transition: ease 0.5s;
+    }
+
+.chitiet-noi-dung-sach{
+    border-radius: 5px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+    padding:20px 160px;
+    float: left;
+    margin-bottom: 50px;
+}
+.chitiet-danh-gia-sach
+{
+    border-radius: 5px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+    padding:20px 160px;
+    float: left;
+    margin-bottom: 50px;
+}
